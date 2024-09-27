@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/FLECS-Technologies/app-sdk/main/manifest.schema.json",
-    "_schemaVersion": "2.0.0",
+    "_schemaVersion": "3.0.0",
     "app": "org.tensorflow.tensorflow",
     "version": "##VERSION##",
     "image": "flecs.azurecr.io/org.tensorflow.tensorflow",
-    "editor":
+    "editors":[
     {
         "name": "UI",
         "port" : 8888,
         "supportsReverseProxy" : true
-    }
+    }]
 }

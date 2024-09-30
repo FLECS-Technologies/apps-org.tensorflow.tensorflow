@@ -8,6 +8,6 @@
     {
         "name": "UI",
         "port" : 8888,
-        "supportsReverseProxy" : true
+        "supportsReverseProxy" : false
     }]
 }
